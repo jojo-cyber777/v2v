@@ -1,0 +1,2635 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_version": "tencent-tts-voices-2026-03-05",
+  "source": {
+    "provider": "Tencent Cloud",
+    "document_title": "语音合成音色列表",
+    "url": "https://cloud.tencent.com/document/product/1073/92668",
+    "page_updated_at": "2026-03-05 14:56:13",
+    "snapshot_created_at": "2026-07-31T13:12:00+08:00",
+    "snapshot_method": "Structured from Tencent Cloud official documentation page"
+  },
+  "endpoint_labels": {
+    "realtime_synthesis": "实时语音合成",
+    "basic_synthesis": "基础语音合成 / TextToVoice",
+    "long_text_synthesis": "长文本语音合成"
+  },
+  "notes": [
+    "The official page lists 48 unique VoiceType values.",
+    "All 48 appear in realtime and basic synthesis lists.",
+    "31 appear in the long-text synthesis list.",
+    "For VoiceType 501000-501007, the official page labels realtime as 中英文 but basic/long-text as 中文; endpoint-specific profiles preserve that difference.",
+    "gender_or_role is derived only from the official recommended_scene label.",
+    "Voice availability, billing tier, and resource-package coverage can change; refresh this snapshot when Tencent Cloud updates the source page."
+  ],
+  "summary": {
+    "unique_voice_count": 48,
+    "realtime_voice_count": 48,
+    "basic_voice_count": 48,
+    "long_text_voice_count": 31,
+    "english_basic_voice_count": 20
+  },
+  "voices": [
+    {
+      "voice_type": 502007,
+      "name": "智小虎",
+      "recommended_scene": "聊天童声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "child",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 502006,
+      "name": "智小悟",
+      "recommended_scene": "聊天男声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 502005,
+      "name": "智小解",
+      "recommended_scene": "解说男声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 502004,
+      "name": "智小满",
+      "recommended_scene": "营销女声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 502003,
+      "name": "智小敏",
+      "recommended_scene": "聊天女声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 502001,
+      "name": "智小柔",
+      "recommended_scene": "聊天女声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 602004,
+      "name": "暖心阿灿",
+      "recommended_scene": "聊天男声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 602005,
+      "name": "专业梓欣",
+      "recommended_scene": "聊天女声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 603000,
+      "name": "懂事少年",
+      "recommended_scene": "特色男声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 603001,
+      "name": "潇湘妹妹",
+      "recommended_scene": "特色女声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 603002,
+      "name": "软萌心心",
+      "recommended_scene": "特色男童声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "boy",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 603003,
+      "name": "随和老李",
+      "recommended_scene": "聊天男声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 603004,
+      "name": "温柔小柠",
+      "recommended_scene": "聊天女声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 603005,
+      "name": "知心大林",
+      "recommended_scene": "聊天男声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 603006,
+      "name": "沉稳青叔",
+      "recommended_scene": "聊天男声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 603007,
+      "name": "邻家女孩",
+      "recommended_scene": "聊天女声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 602003,
+      "name": "爱小悠",
+      "recommended_scene": "聊天女声",
+      "voice_tier": "超自然大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 501000,
+      "name": "智斌",
+      "recommended_scene": "阅读男声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 501001,
+      "name": "智兰",
+      "recommended_scene": "资讯女声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 501002,
+      "name": "智菊",
+      "recommended_scene": "阅读女声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 501003,
+      "name": "智宇",
+      "recommended_scene": "阅读男声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 501004,
+      "name": "月华",
+      "recommended_scene": "聊天女声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 501005,
+      "name": "飞镜",
+      "recommended_scene": "聊天男声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 501006,
+      "name": "千嶂",
+      "recommended_scene": "聊天男声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 501007,
+      "name": "浅草",
+      "recommended_scene": "聊天男声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中英文",
+          "languages": [
+            "zh",
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 501008,
+      "name": "WeJames",
+      "recommended_scene": "外语男声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "英文",
+          "languages": [
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "英文",
+          "languages": [
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "英文",
+          "languages": [
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 501009,
+      "name": "WeWinny",
+      "recommended_scene": "外语女声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "英文",
+          "languages": [
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "英文",
+          "languages": [
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "英文",
+          "languages": [
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 601008,
+      "name": "爱小豪",
+      "recommended_scene": "聊天男声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性",
+            "悲伤",
+            "高兴",
+            "生气",
+            "恐惧",
+            "撒娇",
+            "震惊",
+            "厌恶",
+            "平静"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性",
+            "悲伤",
+            "高兴",
+            "生气",
+            "恐惧",
+            "撒娇",
+            "震惊",
+            "厌恶",
+            "平静"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性",
+            "悲伤",
+            "高兴",
+            "生气",
+            "恐惧",
+            "撒娇",
+            "震惊",
+            "厌恶",
+            "平静"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 601009,
+      "name": "爱小芊",
+      "recommended_scene": "聊天女声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性",
+            "悲伤",
+            "高兴",
+            "生气",
+            "恐惧",
+            "撒娇",
+            "震惊",
+            "厌恶",
+            "平静"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性",
+            "悲伤",
+            "高兴",
+            "生气",
+            "恐惧",
+            "撒娇",
+            "震惊",
+            "厌恶",
+            "平静"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性",
+            "悲伤",
+            "高兴",
+            "生气",
+            "恐惧",
+            "撒娇",
+            "震惊",
+            "厌恶",
+            "平静"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 601010,
+      "name": "爱小娇",
+      "recommended_scene": "聊天女声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性",
+            "悲伤",
+            "高兴",
+            "生气",
+            "恐惧",
+            "撒娇",
+            "震惊",
+            "厌恶",
+            "平静"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性",
+            "悲伤",
+            "高兴",
+            "生气",
+            "恐惧",
+            "撒娇",
+            "震惊",
+            "厌恶",
+            "平静"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性",
+            "悲伤",
+            "高兴",
+            "生气",
+            "恐惧",
+            "撒娇",
+            "震惊",
+            "厌恶",
+            "平静"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 601011,
+      "name": "爱小川",
+      "recommended_scene": "聊天男声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 601012,
+      "name": "爱小璟",
+      "recommended_scene": "特色女声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 601013,
+      "name": "爱小伊",
+      "recommended_scene": "阅读女声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 601014,
+      "name": "爱小简",
+      "recommended_scene": "聊天男声",
+      "voice_tier": "大模型音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000,
+            24000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101050,
+      "name": "WeJack",
+      "recommended_scene": "英文男声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "英文",
+          "languages": [
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "英文",
+          "languages": [
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "英文",
+          "languages": [
+            "en"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101055,
+      "name": "智付",
+      "recommended_scene": "通用女声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101013,
+      "name": "智辉",
+      "recommended_scene": "新闻男声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101019,
+      "name": "智彤",
+      "recommended_scene": "粤语女声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101030,
+      "name": "智柯",
+      "recommended_scene": "通用男声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101054,
+      "name": "智友",
+      "recommended_scene": "通用男声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101027,
+      "name": "智梅",
+      "recommended_scene": "通用女声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101026,
+      "name": "智希",
+      "recommended_scene": "通用女声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101004,
+      "name": "智云",
+      "recommended_scene": "通用男声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101015,
+      "name": "智萌",
+      "recommended_scene": "男童声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "boy",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101011,
+      "name": "智燕",
+      "recommended_scene": "新闻女声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101001,
+      "name": "智瑜",
+      "recommended_scene": "情感女声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "female",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101021,
+      "name": "智瑞",
+      "recommended_scene": "新闻男声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "male",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    },
+    {
+      "voice_type": 101016,
+      "name": "智甜",
+      "recommended_scene": "女童声",
+      "voice_tier": "精品音色",
+      "gender_or_role": "girl",
+      "gender_or_role_source": "derived_from_official_recommended_scene",
+      "supported_endpoints": [
+        "realtime_synthesis",
+        "basic_synthesis",
+        "long_text_synthesis"
+      ],
+      "text_to_voice_compatible": true,
+      "endpoint_profiles": {
+        "realtime_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "basic_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        },
+        "long_text_synthesis": {
+          "language_label": "中文",
+          "languages": [
+            "zh"
+          ],
+          "sample_rates_hz": [
+            8000,
+            16000
+          ],
+          "emotions": [
+            "中性"
+          ]
+        }
+      }
+    }
+  ]
+}
