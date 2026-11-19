@@ -28,6 +28,7 @@ Advanced shot workflow
 A reviewable sequence of Shot Plan → Transform Units → Character Mapping → Shot Transformation. Users can inspect individual units, regenerate unsatisfactory results, retain original footage where appropriate, and assemble a visual final output from their selections.
 
 The 60-second threshold describes the current product workflow, not a promise about generation speed or provider availability.
+
 3. Video localization
 - Speech transcription with a local Whisper-based pipeline and speaker diarization support.
 - Translation and editable timeline-level text.
