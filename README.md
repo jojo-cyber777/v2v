@@ -1,4 +1,7 @@
-AI Drama Studio
+AI Drama Studio 
+video transfer video, mainly for short video not live-streaming.
+Any questions, asked me. Telegram:@crazy4OwO
+
 An AI-powered video transformation and localization workspace.
 
 AI Drama Studio (V2V) is a web-based workflow for transforming existing video footage using reference-driven visual generation, shot-level controls, and multilingual post-production tools. It brings visual transformation, review, and localization into a single project-oriented workspace.
@@ -75,5 +78,3 @@ assets/screenshots/shot-workbench.png
 assets/demo/before-after.mp4
 -->Repository and deployment notes
 This repository represents a development codebase. A working deployment may require external service credentials, media-processing dependencies, persistent storage, background services, and environment-specific configuration.
-
-Any questions, asked me. Telegram:@crazy4OwO
